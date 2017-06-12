@@ -32,3 +32,6 @@ input{
   width: 1358px;
   margin: 167px;
 }
+input[type=submit] {
+  font-weight: bold;
+}
