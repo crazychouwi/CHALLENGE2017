@@ -7,10 +7,10 @@
   </head>
   <body>
     <div class="header">
-
+      <img src="assets/img/logoSimplon.png" alt="logoSimplon">
     </div>
     <div class="contenu">
-      <h1>BIENVENUS</h1>
+      <h1 class="headline">BIENVENU</h1>
       <h1>Vous êtes</h1>
       <div class="bouton">
         <div class="formateur">

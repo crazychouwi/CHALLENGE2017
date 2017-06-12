@@ -1,9 +1,14 @@
 body{
-  font-family: helvetica;  
+  font-family: helvetica;
 }
 h1{
   text-align: center;
   color: black;
+}
+.headline{
+  text-align: center;
+  color: black;
+  font-size: 4em;
 }
 .bouton{
   display: flex;
@@ -17,5 +22,13 @@ input{
   background-color: #D7254E;
   font-size: 2em;
   color: white;
-  text-shadow: 3px 3px 3px #D7254E;
+}
+.header{
+  background-color: #D7254E;
+  display: flex;
+  justify-content: center;
+}
+.contenu{
+  width: 1358px;
+  margin: 167px;
 }
