@@ -11,6 +11,8 @@ body{
   text-align: center;
   color: black;
   font-size: 4em;
+  padding-top: 7%;
+  padding-bottom: 4%;
 }
 ul{
   list-style-type:none;
