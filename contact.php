@@ -6,22 +6,25 @@
     <title>Contact</title>
   </head>
   <body>
-    <h1>Contact</h1>
+    <div class="header">
+      <img src="assets/img/logoSimplon.png" alt="logoSimplon">
+    </div>
+    <h1 class="headline">CONTACT</h1>
     <div class="contacts">
      <ul>
        <li>Nicolas Villa</li>
        <li>Formateur/Facilitateur École Régionale du Numérique INESS</li>
-       <li><img src="assets/img/mail.png" alt="Mail" class="mail1">nvilla@simplon.co</li>
+       <li><img src="assets/img/mail.png" alt="Mail:" class="mail1"> nvilla@simplon.co</li>
      </ul>
      <ul>
        <li>Patrick Belaire</li>
        <li>Formateur/Facilitateur École Régionale du Numérique INESS</li>
-       <li><img src="assets/img/mail.png" alt="Mail" class="mail2">pbelaire@simplon.co</li>
+       <li><img src="assets/img/mail.png" alt="Mail:" class="mail2"> pbelaire@simplon.co</li>
      </ul>
      <ul>
      <li>Laurent Darras</li>
      <li>Chargé de promotion TRE École Régionale du Numérique INESS</li>
-     <li><img src="assets/img/mail.png" alt="Mail" class="mail3">
+     <li><img src="assets/img/mail.png" alt="Mail:" class="mail3">
        ldarras@simplon.co</li>
    </ul>
    </div>
