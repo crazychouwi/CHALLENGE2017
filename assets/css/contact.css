@@ -1,7 +1,32 @@
-.contact{
-  text-align: center;
-  margin: 2em 5em;
+body{
+  margin: 5%;
 }
 ul{
   list-style-type:none;
+}
+h1{
+  text-align: center;
+}
+.contact{
+  color: white;
+}
+.conteneur{
+  background-color: #D7254E;
+  font-size: 2em;
+  color: white;
+  width: 90%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer {
+  position: relative;
+  margin-top: 50px;
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  line-height: 15px;
 }
