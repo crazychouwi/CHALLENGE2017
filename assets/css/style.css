@@ -29,7 +29,7 @@ button{
   justify-content: center;
 }
 .contenu{
-  width: 1358px;
+  width: auto;
   margin: 167px;
 }
 button[type=submit] {
