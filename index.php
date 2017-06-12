@@ -14,10 +14,10 @@
       <h1>Vous êtes</h1>
       <div class="bouton">
         <div class="formateur">
-          <input type="submit" name="formateur" value="Formateur">
+          <button type="submit">Formateur</button>
         </div>
         <div class="candidat">
-          <input type="submit" name="candidat" value="Candidat">
+          <button type="submit">Candidat</button>
         </div>
       </div>
     </div>
