@@ -10,9 +10,10 @@
 
 
   <div class="header">
-    <img src="assets/img/logoSimplon.png" alt="logoSimplon">
-  </div>
-
+          <?php
+             include("includes/header.php");
+            ?>
+     </div>
         <div class="connexion">
          <h1>créer ton compte</h1>
           <p>déja inscrit  <a href="login.php">se connecter</a></p>
