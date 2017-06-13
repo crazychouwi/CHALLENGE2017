@@ -1,6 +1,7 @@
 body{
   font-family: helvetica;
 }
+
 h1{
   text-align: center;
   color: black;
@@ -54,7 +55,7 @@ width:150px;
 line-height:50px;
 text-align:center;
 vertical-align:middle;
-background:url(images/bouton-noir.png) no-repeat;
+background: #8c1832;
 color:white;
 text-decoration:none;
 }
