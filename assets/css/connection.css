@@ -50,6 +50,7 @@ border: solid 1px #4CADC1
   margin-top: 4px;
   }
 
+
 .header{
     background-color: #D7254E;
     display: flex;
@@ -57,24 +58,23 @@ border: solid 1px #4CADC1
   }
 
 .footer {
-    position: relative;
+
     margin-top: 50px;
     bottom: 0;
     height: 50px;
     width: 100%;
-    bottom: 0;
     text-align: center;
     line-height: 15px;
   }
-  .conteneur{
+
+    .conteneur {
     background-color: #D7254E;
-    font-size: 2em;
+    font-size: 1em;
     color: white;
-    width: 90%;
-    position: fixed;
+    width: 100%;
     bottom: 0;
     display: flex;
     justify-content: space-around;
-    border: 2px #D7254E solid;
-    box-shadow: 6px 6px 6px #D7254E;
-  }
+    height: 80%;
+
+}
