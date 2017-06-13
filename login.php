@@ -10,7 +10,7 @@
     <div class="header">
       <img src="assets/img/logoSimplon.png" alt="logoSimplon">
     </div>
-<form method="post" action=".php" enctype="multipart/form-data">
+<form method="post" action="connexion.php" enctype="multipart/form-data">
 
 <!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->
 <p><a href="account.php">1ère inscription</a></p>
