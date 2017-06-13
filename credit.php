@@ -22,7 +22,7 @@
            <li>Frédéric GUIRAUD : kiluaws@gmail.com</li>
            <li>Yvan JANSKY : jansky@yahoo.com</li>
            <li>Bruno LAPIERRE : lapierre.bruno@gmail.com</li>
-           <li>Marlène Mas : baleclyps@gmail.com</li>
+           <li>Marlène MAS : baleclyps@gmail.com</li>
            <li>Eloise MECOZZI : eloisemecozzi@gmail.com</li>
            <li>Ange MONDOLONI : swinginlover@hotmail.com</li>
            <li>Hermeline ROUSSELET : biboulle66@gmail.com</li>
