@@ -1,7 +1,6 @@
       <?php
       session_start();
-      $_SESSION['nom'] = $_POST['nom'];
-      $_SESSION['prenom'] = $_POST['prenom'];
+      $_SESSION['login'] = $_POST['login'];
       $_SESSION['password'] = $_POST['password'];
       $_SESSION['email'] = $_POST['email'];
       ?>
@@ -9,7 +8,7 @@
 
       try
       {
-          $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', 'mayrai66!!');
+          $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', '!!');
           $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       }
       catch(Exception $e)

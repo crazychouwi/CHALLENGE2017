@@ -20,15 +20,20 @@
     <form method="post" action="traitement.php" enctype="multipart/form-data">
 
     <label for="nom">Nom :</label><br/>
-    <input type="text" required="required" name="username" id="nom" /><br/>
+    <input type="text" required="required" name="nom" id="nom" /><br/>
 
    <label for="prenom">Prénom :</label><br/>
    <input type="text" name="prenom" id="prenom" /><br/>
 
+<<<<<<< HEAD
 
       <label for="login">login :</label><br/>
       <input type="text" name="login" id="login" /><br/>
 
+=======
+   <label for="login">Login :</label>
+   <input type="text" name="login" id="login" />
+>>>>>>> 6813f3ba97c857ae0e30d3a81bac6185ea8af57d
 
     <label for="email">Email :</label><br/>
     <input type="email" required="required" name="email" id="email" /><br/>

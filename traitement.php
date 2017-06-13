@@ -8,7 +8,7 @@ $_SESSION['password'] = $_POST['password'];
 // Connexion à la base de données
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', 'mayrai66!!');
+    $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', '!!');
 		$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch(Exception $e)
@@ -28,7 +28,7 @@ $hash = password_hash($pass, PASSWORD_BCRYPT, $options);
 $req = $bdd->prepare('INSERT INTO Formateurs (nom, prenom, login, email, password) VALUES(:nom, :prenom, :login, :email, :password)');
 $req->execute(array('nom' => $_POST['nom'], 'prenom' => $_POST['prenom'], 'login' => $_POST['login'], 'email' => $_POST['email'], 'password' => $hash));
 // Redirection du visiteur vers la page du minichat
-// header('Location: connexion.php');
+header('Location: connexion.php');
 } catch (Exception $e) {
     echo "Vous êtes déja inscrit";
 }
