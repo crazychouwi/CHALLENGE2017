@@ -1,0 +1,81 @@
+body{
+  margin: 5%;
+  font-family: helvetica;
+}
+.header{
+  background-color: #D7254E;
+  display: flex;
+  justify-content: center;
+}
+.headline{
+  text-align: center;
+  color: black;
+  font-size: 4em;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+@media screen and (max-width: 1024px){
+  .headline{
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    padding-top: 2%;
+    padding-bottom: 4%;
+  }
+  h2{
+    font-size: 0.8em;
+  }
+  .noms{
+    font-size: 0.5em;
+    margin: auto;
+    padding: 10px;
+  }
+}
+
+
+h1{
+  text-align: center;
+}
+.contact{
+  color: white;
+}
+.contacts{
+  text-align: center;
+  font-size: 2em;
+  border: 2px #D7254E solid;
+  box-shadow: 6px 6px 6px #D7254E;
+}
+a:visited{
+  color: white;
+  text-decoration: none;
+}
+
+
+.conteneur{
+  background-color: #D7254E;
+  font-size: 2em;
+  color: white;
+  width: 90%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  border: 2px #D7254E solid;
+  box-shadow: 6px 6px 6px #D7254E;
+}
+.map{
+  border: 2px #D7254E solid;
+  box-shadow: 6px 6px 6px #D7254E;
+  width: 35%;
+  margin-top: 5%;
+}
+.footer {
+  position: relative;
+  margin-top: 50px;
+  height: 50px;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  line-height: 15px;
+}

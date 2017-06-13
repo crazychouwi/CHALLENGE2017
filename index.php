@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="./assets/css/contact.css"/>
   </head>
   <body>
+
+    <header class="menu">
+            <?php
+               include("includes/menu.php");
+              ?>
+       </header>
+
     <div class="head">
-    <div class="menu">
-      <?php
-      include("includes/menu.php");
-      ?>
-    </div>
     <div class="header">
       <img src="assets/img/logoSimplon.png" alt="logoSimplon">
     </div>
