@@ -16,8 +16,8 @@
      </div>
         <div class="connexion">
          <h1>créer ton compte</h1>
-          <p>déja inscrit  <a href="login.php">se connecter</a></p>
-    <form method="post" action="traitement.php" enctype="multipart/form-data">
+          <p>déja inscrit  <a href="loginF.php">se connecter</a></p>
+    <form method="post" action="traitementF.php" enctype="multipart/form-data">
 
     <label for="nom">Nom :</label><br/>
     <input type="text" required="required" name="nom" id="nom" /><br/>
