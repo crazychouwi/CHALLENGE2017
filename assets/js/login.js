@@ -21,7 +21,7 @@ $(document).ready(function(){
 			$("#nom").focus();
 			return false;
 		}
-	
+
 		if ($("#email").val() == "" ) {
 			alert("Merci de saisir votre adresse email correcte");
 			$("#email").focus();
@@ -49,12 +49,12 @@ $(document).ready(function(){
   $vpassword.keyup(function() {
     if ($(this).val() != $pw.val()){
     $(this).css({
-      color :'orange',
+      color :'red',
     });
   }
   else{
     $(this).css({
-      color :'purple',
+      color :'green',
     });
   }
   });
