@@ -5,11 +5,11 @@
     <title>Challenge 2017</title>
   </head>
   <body>
-    <header class="header">
+    <div class="header">
             <?php
                include("includes/header.php");
               ?>
-       </header>
+       </div>
 
 
        <div class="footer">

@@ -9,11 +9,11 @@
   <body>
 <form method="post" action=".php" enctype="multipart/form-data">
 
-   <header class="header">
-            <?php
-               include("includes/header.php");
-              ?>
-       </header>
+  <div class="header">
+          <?php
+             include("includes/header.php");
+            ?>
+     </div>
         <div class="connexion">
      <h1>créer ton compte</h1>
 <p>déja inscrit  <a href="login.php">se connecter</a></p>

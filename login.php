@@ -7,11 +7,11 @@
 
   </head>
   <body>
-     <header class="header">
-              <?php
-                 include("includes/header.php");
-                ?>
-         </header>
+    <div class="header">
+            <?php
+               include("includes/header.php");
+              ?>
+       </div>
 <form method="post" action="connexion.php" enctype="multipart/form-data">
 
 <!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->

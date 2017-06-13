@@ -7,8 +7,10 @@
   </head>
   <body>
     <div class="header">
-      <img src="assets/img/logoSimplon.png" alt="logoSimplon">
-    </div>
+            <?php
+               include("includes/header.php");
+              ?>
+       </div>
     <h1 class="headline">CONTACT</h1>
     <div class="contacts">
     <p>Adresse:</br>
