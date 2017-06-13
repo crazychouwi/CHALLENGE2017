@@ -3,17 +3,19 @@
 <head>
   <meta charset="utf-8">
   <title>connexion</title>
-<?php include 'includes/header.php';?>
  <link href="assets/css/connection.css" type="text/css" rel="stylesheet">
-  
+
   </head>
   <body>
+    <div class="header">
+      <img src="assets/img/logoSimplon.png" alt="logoSimplon">
+    </div>
 <form method="post" action=".php" enctype="multipart/form-data">
 
-<div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div>
+<!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->
 
 <div class="connexion">
-   <h1>Sign In</h1>
+   
 
 <label for="identifiant">identifiants :</label><br/>
 <input type="identifiant" name="identifiant" id="identifiant" /><br/>
@@ -37,6 +39,10 @@
 
 
 
-<?php include 'includes/footer.php';?>
+<div class="footer">
+ <?php
+    include("includes/footer.php");
+   ?>
+</div>
 </body>
 </html>

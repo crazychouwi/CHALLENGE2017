@@ -1,24 +1,28 @@
 body{
   font-family: helvetica;
 }
+.connexion{
+  text-align: center;
+  margin-top: 10%;
+}
 
 #button {
     background-color: #D7254E;
     border-radius: 40px;
-    width: 29%;
-    height: 15%;
+    width: 21%;
+    height: 8%;
     font-size: 1.5em;
     margin-top: 10%;
-    margin-left: 31%;
+
     color: white;
   }
 
 
-.logos{
+/*#logo{
   width: 61%;
   margin-left: 63%;
   margin-top: -2%;
-}
+}*/
 
 
 /*#fb:hover {
@@ -44,4 +48,33 @@ border: solid 1px #4CADC1
   height: 13px;
   width: 15px;
   margin-top: 4px;
+  }
+
+.header{
+    background-color: #D7254E;
+    display: flex;
+    justify-content: center;
+  }
+
+.footer {
+    position: relative;
+    margin-top: 50px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    line-height: 15px;
+  }
+  .conteneur{
+    background-color: #D7254E;
+    font-size: 2em;
+    color: white;
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    border: 2px #D7254E solid;
+    box-shadow: 6px 6px 6px #D7254E;
   }
