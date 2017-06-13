@@ -25,7 +25,7 @@
 
 <label for="">password :</label><br/>
 <input type="password" name="pw" id="pw"><br/>
-<div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
+<div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">forgot your password?</a></div>
 
 <input id="button" type="submit" value="Sign In">
 </div>
