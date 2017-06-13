@@ -20,12 +20,12 @@
     <form method="post" action="traitement.php" enctype="multipart/form-data">
 
     <label for="nom">Nom :</label><br/>
-    <input type="text" required="required" name="username" id="nom" /><br/>
+    <input type="text" required="required" name="nom" id="nom" /><br/>
 
    <label for="prenom">Prénom :</label><br/>
    <input type="text" name="prenom" id="prenom" /><br/>
 
-   <label class="label" for="login">Login :</label>
+   <label for="login">Login :</label>
    <input type="text" name="login" id="login" />
 
     <label for="email">Email :</label><br/>
