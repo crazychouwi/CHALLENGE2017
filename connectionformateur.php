@@ -15,9 +15,9 @@
 <!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->
 
 <div class="connexion">
-   
 
-<label for="identifiant">identifiants :</label><br/>
+
+<label for="identifiant">identifiant :</label><br/>
 <input type="identifiant" name="identifiant" id="identifiant" /><br/>
 
 <label for="email">Email :</label><br/>

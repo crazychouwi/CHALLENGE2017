@@ -4,7 +4,7 @@ body{
 
 .connexion{
   text-align: center;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 #button {
@@ -13,7 +13,7 @@ body{
     width: 21%;
     height: 8%;
     font-size: 1.5em;
-    margin-top: 10%;
+    margin-top: 6%;
 
     color: white;
   }
