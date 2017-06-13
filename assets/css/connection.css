@@ -1,0 +1,63 @@
+body{
+  font-family: helvetica;
+}
+
+.connexion{
+  text-align: center;
+  margin-top: 5%;
+}
+
+#button {
+    background-color: #D7254E;
+    border-radius: 40px;
+    width: 21%;
+    height: 8%;
+    font-size: 1.5em;
+    margin-top: 6%;
+
+    color: white;
+  }
+
+input[type="identifiant"]:focus,
+input[type="identifiant"].focus,
+input[type="email"]:focus,
+input[type="email"].focus,
+input[type="password"]:focus,
+input[type="password"].focus {
+border: solid 1px #4CADC1;
+}
+
+#point{
+  height: 13px;
+  width: 15px;
+  margin-top: 4px;
+  }
+
+
+.header{
+    background-color: #D7254E;
+    display: flex;
+    justify-content: center;
+  }
+
+.footer {
+
+    margin-top: 50px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 15px;
+  }
+
+.conteneur {
+    background-color: #D7254E;
+    font-size: 1em;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+
+}
