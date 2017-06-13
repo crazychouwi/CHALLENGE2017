@@ -51,6 +51,9 @@ a:visited{
   text-decoration: none;
 }
 
+ul{
+  list-style-type:none;
+}
 
 .conteneur{
   background-color: #D7254E;
