@@ -13,7 +13,6 @@
     <div class="header">
       <img src="assets/img/logoSimplon.png" alt="logoSimplon">
     </div>
-    <h1 class="headline">Crédits</h1>
     <div class="contacts">
       <h2>Ecole Régionale du Numérique SIMPLON</h2>
          <p class="noms">Jennifer AZINHEIRA : jny66000@gmail.com</p>
