@@ -1,3 +1,9 @@
+<?php
+ session_start();
+ $_SESSION['login'] = $_POST['login'];
+ $_SESSION['password'] = $_POST['password'];
+ $_SESSION['email'] = $_POST['email'];
+ ?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -12,6 +18,15 @@
         include("includes/header.php");
        ?>
     </div>
+
+    <?php
+      if (isset($_SESSION['login']) || $_SESSION['email'] && $_SESSION['password']) {
+        echo "<p>Vous voici connecté ! Merci " . $_SESSION['login'] . " ! A bientôt !</p>";
+      }
+      else{
+        echo "accès denied";
+      }
+    ?>
 <h3>Veuillez saisir votre prénom et nom :</h3><br/>
   <p><input type="text" name="prenom" value="" placeholder="Prénom"/></p>
   <p><input type="text" name="nom" value="" placeholder="Nom"/><br/><br/></p>
