@@ -18,13 +18,14 @@ body{
     color: white;
   }
 
-
+input[type="identifiant"]:focus,
+input[type="identifiant"].focus,
 input[type="email"]:focus,
 input[type="email"].focus,
 input[type="password"]:focus,
 input[type="password"].focus {
-border: solid 1px #4CADC1
-;}
+border: solid 1px #4CADC1;
+}
 
 #point{
   height: 13px;
