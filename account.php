@@ -25,8 +25,10 @@
    <label for="prenom">Prénom :</label><br/>
    <input type="text" name="prenom" id="prenom" /><br/>
 
-   <label for="login">Login :</label>
-   <input type="text" name="login" id="login" />
+
+
+   <label for="login">Login :</label><br/>
+   <input type="text" name="login" id="login" /><br/>
 
     <label for="email">Email :</label><br/>
     <input type="email" required="required" name="email" id="email" /><br/>
@@ -38,8 +40,8 @@
     <input type="password" required="required" name="password" id="vpassword"><br/>
 
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
-
     <input id="button" type="submit" name="commit" value="Sign In">
+  </div>
 
   <div class="footer">
    <?php
