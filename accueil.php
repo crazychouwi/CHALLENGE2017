@@ -7,30 +7,13 @@
     <link rel="stylesheet" href="./assets/css/contact.css"/>
   </head>
   <body>
-<<<<<<< HEAD
 
-=======
-<<<<<<< HEAD
->>>>>>> 02325e6264aaf916f28db329646f6175aa867db1
     <div class="menu">
             <?php
                include("includes/menu.php");
               ?>
        </div>
-<<<<<<< HEAD
        
-=======
-=======
-
-    <header class="menu">
-            <?php
-               include("includes/menu.php");
-              ?>
-       </header>
-
-    <div class="head">
->>>>>>> 8e4c5a721c42dfa2976ade40272577e827b3e463
->>>>>>> 02325e6264aaf916f28db329646f6175aa867db1
     <div class="header">
       <img src="assets/img/logoSimplon.png" alt="logoSimplon">
     </div>
