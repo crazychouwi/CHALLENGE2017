@@ -22,6 +22,7 @@ h1{
 }
 .contact{
   color: white;
+  background: #8c1832;
 }
 .contacts{
   text-align: center;
@@ -31,16 +32,16 @@ h1{
 }
 a:visited{
   color: white;
+}
+a{
   text-decoration: none;
 }
-
 
 .conteneur{
   background-color: #D7254E;
   font-size: 2em;
   color: white;
   width: 90%;
-  position: fixed;
   bottom: 0;
   display: flex;
   justify-content: space-around;
