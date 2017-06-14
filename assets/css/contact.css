@@ -49,8 +49,7 @@ a{
   box-shadow: 6px 6px 6px #D7254E;
 }
 .map{
-  border: 2px #D7254E solid;
-  box-shadow: 6px 6px 6px #D7254E;
+
   width: 35%;
   margin-top: 5%;
 }
@@ -74,4 +73,9 @@ a{
     justify-content: space-around;
     height: 80%;
 
+}
+button{
+  font-size: 1em;
+  width: 100px;
+  height: 100px;
 }
