@@ -10,10 +10,10 @@ body{
 
 @media screen and (max-width: 1024px){
   h2{
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
   .noms{
-    font-size: 0.5em;
+    font-size: 0.7em;
     margin: auto;
     padding: 10px;
   }
