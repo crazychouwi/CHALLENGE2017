@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="./assets/css/contact.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Contact</title>
   </head>
   <body>
+    <header class="menu">
+            <?php
+               include("includes/menu.php");
+              ?>
+       </header>
+
     <div class="header">
             <?php
                include("includes/header.php");
@@ -29,7 +36,6 @@
     <?php
        include("includes/footer.php");
       ?>
-   </div>
 
 
   </body>

@@ -14,43 +14,46 @@
              include("includes/header.php");
             ?>
      </div>
-     <h1>créer ton compte</h1>
         <div class="connexion">
+          <h1>créer ton compte</h1>
           <p>déja inscrit  <a href="loginA.php">se connecter</a></p>
     <form method="post" action="traitementA.php" enctype="multipart/form-data">
+  <div class="container">
+       <div class="identite">
 
-    <label for="nom">Nom :</label>
-    <input type="text" required="required" name="nom" id="nom" />
-   <label for="prenom">Prénom :</label>
-   <input type="text" name="prenom" id="prenom" />
+   <label for="nom">Nom :</label></br>
+   <input type="text" required="required" name="nom" id="nom" /></br>
+   <label for="prenom">Prénom :</label></br>
+   <input type="text" name="prenom" id="prenom" /></br>
+   <label for="ddn">Date de naissance :</label></br>
+   <input type="text" name="ddn" id="ddn" /></br>
+   <label for="adresse">Adresse :</label></br>
+   <input type="text" name="adresse" id="adresse" /></br>
+   <label for="cp">Code Postal :</label></br>
+   <input type="text" name="cp" id="cp" /></br>
+   <label for="ville">ville :</label></br>
+   <input type="text" name="ville" id="ville" /></br>
+   <label for="tel">Numéro de téléphone :</label></br>
+   <input type="text" name="tel" id="tel" /></br>
 
-   <label for="ddn">Date de naissance :</label>
-   <input type="text" name="ddn" id="ddn" />
+</div>
 
-   <label for="adresse">Adresse :</label>
-   <input type="text" name="adresse" id="adresse" />
 
-   <label for="cp">Code Postal :</label>
-   <input type="text" name="cp" id="cp" />
-   <label for="ville">ville :</label>
-   <input type="text" name="ville" id="ville" />
-   <label for="tel">Numéro de téléphone :</label>
-   <input type="text" name="tel" id="tel" />
+<div class="login">
 
-   <label for="login">Login :</label>
-   <input type="text" name="login" id="login" />
-    <label for="email">Email :</label>
-    <input type="email" required="required" name="email" id="email" />
-
-    <label for="password">Password :</label>
-    <input type="password" required="required" name="password" id="pw">
-
-    <label for="confirmation">Vérification password :</label>
-    <input type="password" required="required" name="password" id="vpassword">
-
+    <label for="login">Login :</label></br>
+    <input type="text" name="login" id="login" /></br>
+    <label for="email">Email :</label></br>
+    <input type="email" required="required" name="email" id="email" /></br>
+    <label for="password">Password :</label></br>
+    <input type="password" required="required" name="password" id="pw"></br>
+    <label for="confirmation">Vérification password :</label></br>
+    <input type="password" required="required" name="password" id="vpassword"></br>
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
-    <input id="button" type="submit" name="commit" value="Sign In">
+
   </div>
+</div>
+<input id="button" type="submit" name="commit" value="Sign In">
 
   <div class="footer">
    <?php
