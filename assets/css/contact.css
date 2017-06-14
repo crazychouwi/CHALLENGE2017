@@ -36,7 +36,7 @@ a:visited{
 a{
   text-decoration: none;
 }
-
+/*
 .conteneur{
   background-color: #D7254E;
   font-size: 2em;
@@ -47,7 +47,7 @@ a{
   justify-content: space-around;
   border: 2px #D7254E solid;
   box-shadow: 6px 6px 6px #D7254E;
-}
+}*/
 .map{
 
   width: 35%;
