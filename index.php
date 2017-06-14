@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>challenge2017</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/contact.css"/>
+    <link rel="stylesheet" href="./assets/css/connection.css"/>
   </head>
   <body>
 

@@ -1,9 +1,10 @@
 body{
   font-family: helvetica;
+
 }
 
 .connexion{
-  
+
   text-align: center;
   margin-top: 5%;
 }
@@ -14,7 +15,7 @@ body{
     width: 21%;
     height: 8%;
     font-size: 1.5em;
-    margin-top: 6%;
+    margin-top: 2%;
 
     color: white;
   }
@@ -30,6 +31,7 @@ border: solid 1px #4CADC1;
 }
 
 #point{
+
   height: 13px;
   width: 15px;
   margin-top: 4px;
@@ -62,4 +64,27 @@ border: solid 1px #4CADC1;
     justify-content: space-around;
     height: 80%;
 
+}
+
+/*button {
+	width:100px;
+	height:100px;
+	background:#fafafa;
+	box-shadow:2px 2px 8px #aaa;
+	font:bold 13px Arial;
+	border-radius:50%;
+	color:#555;
+}*/
+.container{
+ display: flex;
+ margin-left: 25%;
+}
+.identite{
+  margin-right: 15%;
+}
+.login{
+  margin-top: 30%;
+}
+#forgot{
+  margin-top: 5%;
 }
