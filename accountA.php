@@ -45,10 +45,12 @@
     <input type="text" name="login" id="login" />
     <label for="email">Email :</label>
     <input type="email" required="required" name="email" id="email" />
+
     <label for="password">Password :</label>
     <input type="password" required="required" name="password" id="pw">
     <label for="confirmation">Vérification password :</label>
-    <input type="password" required="required" name="password" id="vpassword">
+    <input type="vpassword" required="required" name="password" id="password">
+
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
     <input id="button" type="submit" name="commit" value="Sign In">
 
