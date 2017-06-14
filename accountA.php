@@ -19,17 +19,16 @@
           <p>déja inscrit  <a href="loginA.php">se connecter</a></p>
     <form method="post" action="traitementA.php" enctype="multipart/form-data">
 
-    <label for="nom">Nom :</label>
-    <input type="text" required="required" name="nom" id="nom" />
+<div class="identite">
+
+   <label for="nom">Nom :</label>
+   <input type="text" required="required" name="nom" id="nom" />
    <label for="prenom">Prénom :</label>
    <input type="text" name="prenom" id="prenom" />
-
    <label for="ddn">Date de naissance :</label>
    <input type="text" name="ddn" id="ddn" />
-
    <label for="adresse">Adresse :</label>
    <input type="text" name="adresse" id="adresse" />
-
    <label for="cp">Code Postal :</label>
    <input type="text" name="cp" id="cp" />
    <label for="ville">ville :</label>
@@ -37,20 +36,24 @@
    <label for="tel">Numéro de téléphone :</label>
    <input type="text" name="tel" id="tel" />
 
-   <label for="login">Login :</label>
-   <input type="text" name="login" id="login" />
+</div>
+
+
+<div class="connexion">
+
+    <label for="login">Login :</label>
+    <input type="text" name="login" id="login" />
     <label for="email">Email :</label>
     <input type="email" required="required" name="email" id="email" />
-
     <label for="password">Password :</label>
     <input type="password" required="required" name="password" id="pw">
-
     <label for="confirmation">Vérification password :</label>
     <input type="password" required="required" name="password" id="vpassword">
-
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
     <input id="button" type="submit" name="commit" value="Sign In">
+
   </div>
+
 
   <div class="footer">
    <?php
