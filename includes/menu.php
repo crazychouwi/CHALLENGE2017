@@ -12,4 +12,3 @@
   <p><a href="#">Formulaire</a></p>
   <p><a href="#">Questionnaire</a></p>
 </div>
-</div>

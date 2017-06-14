@@ -16,17 +16,19 @@
      </div>
         <div class="connexion">
          <h1>créer ton compte</h1>
-          <p>déja inscrit  <a href="login.php">se connecter</a></p>
-    <form method="post" action="traitement.php" enctype="multipart/form-data">
+          <p>déja inscrit  <a href="loginF.php">se connecter</a></p>
+    <form method="post" action="traitementF.php" enctype="multipart/form-data">
 
     <label for="nom">Nom :</label><br/>
-    <input type="text" required="required" name="username" id="nom" /><br/>
+    <input type="text" required="required" name="nom" id="nom" /><br/>
 
    <label for="prenom">Prénom :</label><br/>
    <input type="text" name="prenom" id="prenom" /><br/>
 
-   <label class="label" for="login">Login :</label>
-   <input type="text" name="login" id="login" />
+
+
+   <label for="login">Login :</label><br/>
+   <input type="text" name="login" id="login" /><br/>
 
     <label for="email">Email :</label><br/>
     <input type="email" required="required" name="email" id="email" /><br/>
@@ -38,8 +40,8 @@
     <input type="password" required="required" name="password" id="vpassword"><br/>
 
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
-
     <input id="button" type="submit" name="commit" value="Sign In">
+  </div>
 
   <div class="footer">
    <?php

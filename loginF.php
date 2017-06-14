@@ -1,15 +1,9 @@
-      <?php
-      session_start();
-      $_SESSION['nom'] = $_POST['nom'];
-      $_SESSION['prenom'] = $_POST['prenom'];
-      $_SESSION['password'] = $_POST['password'];
-      $_SESSION['email'] = $_POST['email'];
-      ?>
+
       <?php
 
       try
       {
-          $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', 'mayrai66!!');
+          $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', '!!');
           $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       }
       catch(Exception $e)
@@ -41,10 +35,10 @@
           <img src="assets/img/logoSimplon.png" alt="logoSimplon">
         </div>
 
-    <form method="post" action="connexion.php" enctype="multipart/form-data">
+    <form method="post" action="connexionF.php" enctype="multipart/form-data">
 
     <!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->
-    <p><a href="account.php">1ère inscription</a></p>
+    <p><a href="accountF.php">1ère inscription</a></p>
     <div class="connexion">
 
 
