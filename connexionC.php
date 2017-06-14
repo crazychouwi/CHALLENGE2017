@@ -27,7 +27,7 @@
         echo "accès denied";
       }
     ?>
-<h3>Inscrivez-vous ici!</h3><br/>
+<h3>Entrez vos Nom et prénom :</h3><br/>
   <p><input type="text" name="nom" value="" placeholder="Nom"/></p>
   <p><input type="text" name="prénom" value="" placeholder="Prénom"/><br/><br/></p>
           <p>
@@ -44,7 +44,7 @@
                   </optgroup>
               </select>
           </p>
-          <p><input type="button" name="Valider" value="Valider"></p>
+          <p><input type="button" name="Valider" value="Connexion"></p>
   <div class="footer">
    <?php
       include("includes/footer.php");
