@@ -27,16 +27,12 @@
         echo "accès denied";
       }
     ?>
-<h3>Veuillez saisir votre prénom et nom :</h3><br/>
+<h3>Entrez vos Nom et prénom :</h3><br/>
   <p><input type="text" name="prenom" value="" placeholder="Prénom"/></p>
   <p><input type="text" name="nom" value="" placeholder="Nom"/><br/><br/></p>
-
-
-
-
           <p>
               <label for="VILLED"> <strong>Villes</strong></label><br />
-              <select name="villeD" id="villeD" tabindex="50" ><br />
+              <select name="villeD" id="villeD" tabindex="200" ><br />
                   <option value="">Faites votre choix</option>
                       <option value="Montpellier">Montpellier </option>
                       <option value="Lyon">Lyon </option>
