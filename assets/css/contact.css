@@ -37,6 +37,7 @@ a{
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .conteneur{
   background-color: #D7254E;
   font-size: 2em;
@@ -48,6 +49,10 @@ a{
   border: 2px #D7254E solid;
   box-shadow: 6px 6px 6px #D7254E;
 }
+=======
+
+
+>>>>>>> d0d2c011403a65a12c696d3345c1335a09b9441f
 .map{
   border: 2px #D7254E solid;
   box-shadow: 6px 6px 6px #D7254E;
@@ -55,11 +60,23 @@ a{
   margin-top: 5%;
 }
 .footer {
-  position: relative;
-  margin-top: 50px;
-  height: 50px;
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-  line-height: 15px;
+
+    margin-top: 50px;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 15px;
+  }
+
+.conteneur {
+    background-color: #D7254E;
+    font-size: 1em;
+    color: white;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 80%;
+
 }
