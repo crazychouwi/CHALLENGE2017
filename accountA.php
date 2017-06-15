@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>FORMULAIREA</title>
- 
+
  <link href="assets/css/connection.css" type="text/css" rel="stylesheet">
+   <!-- <link rel="stylesheet" href="assets/css/style.css"> -->
   </head>
   <body>
 
@@ -19,8 +20,8 @@
           <p>déja inscrit  <a href="loginA.php">se connecter</a></p>
     <form method="post" action="traitementA.php" enctype="multipart/form-data">
 
-  <div class="container">
-       <div class="identite">
+  <div class="container" style="display:flex; margin-left: 26%;">
+       <div class="identite" style="margin-right:15%;">
 
    <label for="nom">Nom :</label></br>
    <input type="text" required="required" name="nom" id="nom" /></br>

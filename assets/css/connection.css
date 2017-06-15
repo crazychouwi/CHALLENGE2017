@@ -57,10 +57,9 @@ border: solid 1px #4CADC1;
       background-color: rgb(137,157,164);
       margin-top: 50px;
        width: 100%;
-      line-height: 15px;
 
     }
-
+  
 .conteneur a{
   color: white;
 }
@@ -82,7 +81,7 @@ border: solid 1px #4CADC1;
 }*/
 
 
-/*.container{
+.container{
  display: flex;
  margin-left: 25%;
 }
@@ -94,8 +93,8 @@ border: solid 1px #4CADC1;
 }
 #forgot{
   margin-top: 5%;
-}*/
-.bouton{
+}
+.boutons{
   display: flex;
   justify-content: space-around;
 }
