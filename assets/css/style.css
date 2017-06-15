@@ -69,6 +69,7 @@ text-decoration:none;
 .boutons a:hover {
 background:url(images/bouton-noir-2.png) no-repeat;
 }
+
 a{
   float:left;
 margin:2px;
