@@ -17,7 +17,7 @@
        </header>
     <div class="contenu">
       <h1 class="headline">BIENVENUE</h1>
-      <h1>Vous êtes</h1>
+
       <div class="bouton">
         <div class="formateur">
           <button type="submit">Formateur</button>
