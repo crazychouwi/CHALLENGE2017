@@ -14,7 +14,7 @@ body{
   margin-bottom: 1%;
 }
 #button, #lienInscription {
-    background-color: #D7254E;
+    background-color: rgb(137,157,164);
     border-radius: 40px;
     width: 21%;
     height: 8%;
@@ -47,23 +47,25 @@ border: solid 1px #4CADC1;
 
 
 .header{
-    background-color: #D7254E;
+    background-color: rgb(137,157,164);
     display: flex;
     justify-content: center;
   }
 
 .footer {
-
+    background-color: rgb(137,157,164);
     margin-top: 50px;
     bottom: 0;
     height: 50px;
     width: 100%;
     text-align: center;
     line-height: 15px;
+    
+    justify-content: space-around;
   }
 
-.conteneur {
-    background-color: #D7254E;
+/*.conteneur {
+    background-color: rgb(137,157,164);
     font-size: 1em;
     color: white;
     width: 100%;
@@ -72,7 +74,7 @@ border: solid 1px #4CADC1;
     justify-content: space-around;
     height: 80%;
 
-}
+}*/
 .conteneur a{
   color: white;
 }
@@ -107,4 +109,3 @@ border: solid 1px #4CADC1;
 #forgot{
   margin-top: 5%;
 }
- 

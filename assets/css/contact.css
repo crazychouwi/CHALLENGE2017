@@ -27,8 +27,8 @@ h1{
 .contacts{
   text-align: center;
   font-size: 2em;
-  border: 2px #D7254E solid;
-  box-shadow: 6px 6px 6px #D7254E;
+  border: 2px rgb(137,157,164) solid;
+  /*box-shadow: 6px 6px 6px #D7254E;*/
 }
 a:visited{
   color: white;
@@ -54,7 +54,7 @@ a{
   margin-top: 5%;
 }
 .footer {
-
+    background-color: rgb(137,157,164);
     margin-top: 50px;
     bottom: 0;
     height: 50px;
@@ -64,7 +64,7 @@ a{
   }
 
 .conteneur {
-    background-color: #D7254E;
+    background-color: rgb(137,157,164);
     font-size: 1em;
     color: white;
     width: 100%;
