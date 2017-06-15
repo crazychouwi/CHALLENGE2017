@@ -31,7 +31,9 @@ h1{
   font-size: 1.5em;
   border: 2px #D7254E solid;
   box-shadow: 6px 6px 6px #D7254E;
-  margin-top: 4%;
+  margin-top: 11%;
+  width: 80%;
+  margin-left: 10%;
 }
 a:visited{
   color: white;
