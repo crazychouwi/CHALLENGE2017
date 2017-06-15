@@ -2,20 +2,31 @@ body{
   font-family: helvetica;
 }
 
-h1{
-  text-align: center;
-  color: black;
+.contact{
+  margin-left: 70%;
+margin-top: 28%;
+width: 50%;
 }
+
 .headline{
   text-align: center;
   color: black;
-  font-size: 4em;
+  font-size: 2em;
 }
 .choix{
   display: flex;
   justify-content: space-around;
 }
+<<<<<<< HEAD
 .formateur button, .candidat button{
+=======
+.map{
+  width: 50%;
+margin-top: -31%;
+margin-left: 10%;
+}
+/*button{
+>>>>>>> f2af58b01e7e0bdbd560648df66617613a963e6f
   width: 300px;
   height: 200px;
   border: 4px solid black;
@@ -23,6 +34,14 @@ h1{
   background-color: #D7254E;
   font-size: 2em;
   color: white;
+<<<<<<< HEAD
+=======
+}*/
+.header{
+  background-color: rgb(137,157,164);
+  display: flex;
+  justify-content: center;
+>>>>>>> f2af58b01e7e0bdbd560648df66617613a963e6f
 }
 .contenu{
   width: auto;
@@ -35,8 +54,13 @@ a:visited{
   color: white;
   text-decoration: none;
 }
+<<<<<<< HEAD
 .bouton{
   background-color: #D7254E;
+=======
+.boutons{
+  background-color: rgb(137,157,164);
+>>>>>>> f2af58b01e7e0bdbd560648df66617613a963e6f
   display: flex;
   justify-content: space-around;
 }
@@ -50,7 +74,7 @@ width:150px;
 line-height:50px;
 text-align:center;
 vertical-align:middle;
-background: #8c1832;
+background: rgb(137,157,164);
 color:white;
 text-decoration:none;
 }
@@ -94,3 +118,12 @@ margin:2px;
   margin-left: auto;
   margin-right: auto;
 }
+.footer {
+    background-color: rgb(137,157,164);
+    margin-top: 50px;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+    line-height: 15px;
+
+  }

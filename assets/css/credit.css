@@ -3,7 +3,7 @@ body{
   font-family: helvetica;
 }
 .header{
-  background-color: #D7254E;
+  background-color: rgb(137,157,164);
   display: flex;
   justify-content: center;
 }
@@ -29,8 +29,8 @@ h1{
 .contacts{
   text-align: center;
   font-size: 1.5em;
-  border: 2px #D7254E solid;
-  box-shadow: 6px 6px 6px #D7254E;
+  
+
   margin-top: 4%;
 }
 a:visited{
@@ -42,24 +42,7 @@ ul{
   list-style-type:none;
 }
 
-.conteneur{
-  background-color: #D7254E;
-  font-size: 2em;
-  color: white;
-  width: 90%;
-  position: fixed;
-  bottom: 0;
-  display: flex;
-  justify-content: space-around;
-  border: 2px #D7254E solid;
-  box-shadow: 6px 6px 6px #D7254E;
-}
-.map{
-  border: 2px #D7254E solid;
-  box-shadow: 6px 6px 6px #D7254E;
-  width: 35%;
-  margin-top: 5%;
-}
+
 .footer {
   position: relative;
   margin-top: 50px;
