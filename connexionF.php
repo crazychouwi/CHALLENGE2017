@@ -22,12 +22,8 @@
     <?php
       if (isset($_SESSION['login']) || $_SESSION['email'] && $_SESSION['password']) {
         echo "<p>Vous voici connecté ! Merci " . $_SESSION['login'] . " ! A bientôt !</p>";
-      }
-      else{
-        echo "accès denied";
-      }
-    ?>
-<h3>Entrez vos Nom et prénom :</h3><br/>
+
+echo '<h3>Entrez vos Nom et prénom :</h3><br/>
   <p><input type="text" name="prenom" value="" placeholder="Prénom"/></p>
   <p><input type="text" name="nom" value="" placeholder="Nom"/><br/><br/></p>
           <p>
@@ -43,9 +39,13 @@
                       <option value="Perpignan">Perpignan </option>
                   </optgroup>
               </select>
-          </p>
+          </p>';
 
-
+        }
+        else{
+          echo "accès denied";
+        }
+      ?>
   <div class="footer">
    <?php
       include("includes/footer.php");
