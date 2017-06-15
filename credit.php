@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/credit.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/menu.css">
     <title>Crédits</title>
   </head>
