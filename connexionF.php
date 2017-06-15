@@ -23,6 +23,7 @@
     <?php
       if (isset($_SESSION['login']) || $_SESSION['email'] && $_SESSION['password']) {
         echo "<p>Vous voici connecté ! Merci " . $_SESSION['login'] . " ! A bientôt !</p>";
+      }
       else{
         echo "accès denied";
       }
