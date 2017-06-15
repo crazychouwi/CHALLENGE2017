@@ -7,7 +7,7 @@
 <<<<<<< HEAD
     <link rel="stylesheet" href="./assets/css/connection.css"/>
     <!-- <link rel="stylesheet" href="./assets/css/menuSite.css"> -->
-    <link rel="stylesheet" href="./assets/css/menuAccueil.css">
+    <!-- <link rel="stylesheet" href="./assets/css/menuAccueil.css"> -->
 =======
 
     <link rel="stylesheet" href="./assets/css/menu.css">
@@ -38,11 +38,11 @@
         </div>
       </div>
     </div>
-    <!-- <div class="footer">
+     <div class="footer">
      <?php
         include("includes/footer.php");
        ?>
-    </div> -->
+    </div>
 
   </body>
 </html>
