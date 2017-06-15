@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/credit.css"/>
+    <link rel="stylesheet" href="./assets/css/menu.css">
     <title>Crédits</title>
   </head>
   <body>
     <?php
-       include("includes/menu.php");
-       
+       include("includes/menuSite.php");
       ?>
+
     <div class="contacts">
       <h3>Ecole Régionale du Numérique</h3>
       <p>SIMPLON promo 2</p>
