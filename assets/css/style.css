@@ -13,40 +13,32 @@ width: 50%;
   color: black;
   font-size: 2em;
 }
-.bouton{
-  display: flex;
-  justify-content: space-around;
-}
+
 .map{
   width: 50%;
 margin-top: -31%;
 margin-left: 10%;
 }
-/*button{
-  width: 300px;
-  height: 200px;
-  border: 4px solid black;
-  border-radius: 8px 0 8px 0;
-  background-color: #D7254E;
-  font-size: 2em;
-  color: white;
-}*/
+
 .header{
   background-color: rgb(137,157,164);
   display: flex;
   justify-content: center;
+
 }
 .contenu{
   width: auto;
-  margin: 167px;
+  margin: 120px;
 }
-button[type=submit] {
+.formateur button[type=submit], .candidat button[type=submit] {
   font-weight: bold;
 }
 a:visited{
   color: white;
   text-decoration: none;
 }
+.
+
 .boutons{
   background-color: rgb(137,157,164);
   display: flex;
@@ -69,6 +61,7 @@ text-decoration:none;
 .boutons a:hover {
 background:url(images/bouton-noir-2.png) no-repeat;
 }
+
 a{
   float:left;
 margin:2px;
@@ -114,4 +107,8 @@ margin:2px;
     width: 100%;
     line-height: 15px;
 
+  }
+  .bouton{
+    display: flex;
+    justify-content: space-around;
   }

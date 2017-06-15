@@ -10,7 +10,7 @@
       {
               die('Erreur : '.$e->getMessage());
       }
-      $req = $bdd->prepare('SELECT password FROM Formateurs WHERE email = :email');
+      $req = $bdd->prepare('SELECT password FROM formateurs WHERE email = :email');
       $req->execute(array('email' => $_POST['email']));
       $result = $req->fetch(PDO::FETCH_ASSOC);
       $hash = $result['password'];

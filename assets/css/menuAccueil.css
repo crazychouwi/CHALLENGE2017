@@ -48,7 +48,7 @@ nav li:hover .submenu{
 .submenu li a{
   padding: 15px 30px;
   font-size: 15px;
-  color: #D7254E;
+  color: rgb(137,157,164);
   width: 270px;
 }
 .accueil:hover, .menu-candidat:hover, .menu-formateur:hover, .contact:hover{
@@ -71,16 +71,7 @@ nav li:hover .submenu{
   height: 61px;
   float: right;
 }
-<<<<<<< HEAD
-.bouton{
-  text-align: right;
-  float: right;
-=======
-.bouton
-{
-margin-top:15%;
->>>>>>> f2af58b01e7e0bdbd560648df66617613a963e6f
-}
+
 a{
   float: right;
 }
@@ -88,3 +79,12 @@ span{
   font-style: italic;
   font-size: 15px;
 }
+.footer {
+    background-color: rgb(137,157,164);
+    margin-top: 50px;
+    bottom: 0;
+    height: 25%;
+    width: 100%;
+    line-height: 15px;
+
+  }
