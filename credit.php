@@ -9,7 +9,7 @@
   <body>
     <?php
        include("includes/menu.php");
-       include("includes/header.php");
+       
       ?>
     <div class="contacts">
       <h3>Ecole Régionale du Numérique</h3>
