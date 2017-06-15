@@ -18,6 +18,7 @@
           <h1>créer ton compte</h1>
           <p>déja inscrit  <a href="loginA.php">se connecter</a></p>
     <form method="post" action="traitementA.php" enctype="multipart/form-data">
+
   <div class="container">
        <div class="identite">
 
@@ -37,7 +38,6 @@
    <input type="text" name="tel" id="tel" /></br>
 
 </div>
-
 
 <div class="login">
 
