@@ -53,29 +53,14 @@ border: solid 1px #4CADC1;
     justify-content: center;
   }
 
-.footer {
-    background-color: rgb(137,157,164);
-    margin-top: 50px;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    text-align: center;
-    line-height: 15px;
-    
-    justify-content: space-around;
-  }
+  .footer {
+      background-color: rgb(137,157,164);
+      margin-top: 50px;
+       width: 100%;
+      line-height: 15px;
 
-/*.conteneur {
-    background-color: rgb(137,157,164);
-    font-size: 1em;
-    color: white;
-    width: 100%;
-    bottom: 0;
-    display: flex;
-    justify-content: space-around;
-    height: 80%;
+    }
 
-}*/
 .conteneur a{
   color: white;
 }
@@ -97,7 +82,7 @@ border: solid 1px #4CADC1;
 }*/
 
 
-.container{
+/*.container{
  display: flex;
  margin-left: 25%;
 }
@@ -109,4 +94,8 @@ border: solid 1px #4CADC1;
 }
 #forgot{
   margin-top: 5%;
+}*/
+.bouton{
+  display: flex;
+  justify-content: space-around;
 }
