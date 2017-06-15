@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  localhost
--- Généré le :  Mar 13 Juin 2017 à 17:32
+-- Généré le :  Jeu 15 Juin 2017 à 12:12
 -- Version du serveur :  5.5.55-0+deb8u1
 -- Version de PHP :  5.6.30-0+deb8u1
 
@@ -38,8 +38,6 @@ CREATE TABLE IF NOT EXISTS `Apprenants` (
   `ville` varchar(255) NOT NULL,
   `codePostal` varchar(255) NOT NULL,
   `centreDeFormation` varchar(255) NOT NULL
-  `dateDeNaissance` varchar(255) NOT NULL,
-  `numeroTelephone` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
