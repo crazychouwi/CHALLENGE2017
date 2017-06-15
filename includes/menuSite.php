@@ -16,7 +16,7 @@
         <li><a href="#">Voir les fiches candidats</a></li>
       </ul>
     </li>
-      <li class="logo"><a href="#"><img src="assets/img/logoSimplon.png" alt="logoSimplon"></a>
+      <li class="image"><a href="#"><img src="assets/img/logoSimplon.png" alt="logoSimplon"></a>
     </li>
       <li class="bouton"><a class="deconnexion" href="#" type="button" name="bouton" value="Déconnexion"><span>Se déconnecter</span></a>
     </li>
