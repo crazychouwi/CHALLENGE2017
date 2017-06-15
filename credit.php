@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/credit.css"/>
+    <link rel="stylesheet" href="./assets/css/menu.css">
     <title>Crédits</title>
   </head>
   <body>
     <?php
        include("includes/menu.php");
-       include("includes/header.php");
       ?>
+
     <div class="contacts">
       <h2>Ecole Régionale du Numérique SIMPLON</h2>
          <p class="noms">Jennifer AZINHEIRA : jny66000@gmail.com</p>
