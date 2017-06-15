@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>FORMULAIREA</title>
- <link href="login.css" type="text/css" rel="stylesheet">
+ 
  <link href="assets/css/connection.css" type="text/css" rel="stylesheet">
   </head>
   <body>
@@ -18,6 +18,7 @@
           <h1>créer ton compte</h1>
           <p>déja inscrit  <a href="loginA.php">se connecter</a></p>
     <form method="post" action="traitementA.php" enctype="multipart/form-data">
+
   <div class="container">
        <div class="identite">
 
@@ -38,7 +39,6 @@
 
 </div>
 
-
 <div class="login">
 
     <label for="login">Login :</label></br>
@@ -49,6 +49,7 @@
     <input type="password" required="required" name="password" id="pw"></br>
     <label for="confirmation">Vérification password :</label></br>
     <input type="password" required="required" name="password" id="vpassword"></br>
+
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
 
   </div>
