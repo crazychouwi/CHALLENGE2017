@@ -5,33 +5,33 @@
     <title>challenge2017</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/connection.css"/>
-    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/menuSite.css">
   </head>
   <body>
 
 
-    <header class="menu">
+    <header class="header">
             <?php
-               include('includes/menu.php');
+               include('includes/menuSite.php');
               ?>
        </header>
     <div class="contenu">
       <h1 class="headline">BIENVENUE</h1>
       <h1>Vous êtes</h1>
-      <div class="bouton">
+      <div class="choix">
         <div class="formateur">
-          <button type="submit">Formateur</button>
+          <button class="form" type="submit">Formateur</button>
         </div>
         <div class="candidat">
-          <button type="submit">Candidat</button>
+          <button class="cand" type="submit">Candidat</button>
         </div>
       </div>
     </div>
-    <div class="footer">
+    <!-- <div class="footer">
      <?php
         include("includes/footer.php");
        ?>
-    </div>
+    </div> -->
 
   </body>
 </html>
