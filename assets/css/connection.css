@@ -59,7 +59,7 @@ border: solid 1px #4CADC1;
        width: 100%;
 
     }
-  
+
 .conteneur a{
   color: white;
 }
@@ -81,7 +81,7 @@ border: solid 1px #4CADC1;
 }*/
 
 
-.container{
+/*.container{
  display: flex;
  margin-left: 25%;
 }
@@ -93,7 +93,7 @@ border: solid 1px #4CADC1;
 }
 #forgot{
   margin-top: 5%;
-}
+}*/
 .boutons{
   display: flex;
   justify-content: space-around;
