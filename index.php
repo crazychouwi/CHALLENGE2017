@@ -15,10 +15,6 @@
                include("includes/menu.php");
               ?>
        </header>
-
-    <div class="header">
-      <img src="assets/img/logoSimplon.png" alt="logoSimplon">
-    </div>
     <div class="contenu">
       <h1 class="headline">BIENVENUE</h1>
       <h1>Vous êtes</h1>
