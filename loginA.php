@@ -15,7 +15,7 @@
 <form method="post" action="connexion.php" enctype="multipart/form-data">
 
 <!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->
-<a href="account.php" id="lienInscription">Inscription</a>
+<a href="accountA.php" id="lienInscription">Inscription</a>
 
 <div class="connexion">
 

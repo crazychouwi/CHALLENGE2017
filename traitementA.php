@@ -103,12 +103,22 @@ $_SESSION['admin'] = true;
 
           <div class="password">
           <?php
-          if(!empty($_POST['passeword'])){
-          echo $_POST['password'];
+          if(!empty($_POST['pw'])){
+          echo $_POST['pw'];
           } else {
           echo 'password';
           }
           ?>
+
+          <div class="vpassword">
+          <?php
+          if(!empty($_POST['pw'])){
+          echo $_POST['pw'];
+          } else {
+          echo 'password';
+          }
+          ?>
+
     </div>
     <a href="secretA.php">valider</a>
     </div>

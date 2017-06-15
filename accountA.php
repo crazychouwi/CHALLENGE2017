@@ -49,6 +49,7 @@
     <input type="password" required="required" name="password" id="pw"></br>
     <label for="confirmation">Vérification password :</label></br>
     <input type="password" required="required" name="password" id="vpassword"></br>
+
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
 
   </div>
