@@ -4,6 +4,7 @@
     <meta charset="utf-8">
 
     <link rel="stylesheet" href="./assets/css/style.css"/>
+      <link rel="stylesheet" href="./assets/css/menu.css">
     <title>Contact</title>
   </head>
   <body>
@@ -20,7 +21,7 @@
        </div>
 
     <div class="contact">
-<h1>contact</h1>
+<h2>contact</h2>
     Téléphone: 0186956453</br>
       <p>Email:inbox@simplon.co</p>
    </div>

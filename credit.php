@@ -10,6 +10,10 @@
   <body>
     <?php
        include("includes/menu.php");
+<<<<<<< HEAD
+=======
+       
+>>>>>>> 2a9f2cb3c089404777b8fa70b74191caf13d5c47
       ?>
 
     <div class="contacts">

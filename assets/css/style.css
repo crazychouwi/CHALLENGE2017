@@ -13,16 +13,20 @@ width: 50%;
   color: black;
   font-size: 2em;
 }
-.bouton{
+.choix{
   display: flex;
   justify-content: space-around;
 }
+<<<<<<< HEAD
+.formateur button, .candidat button{
+=======
 .map{
   width: 50%;
 margin-top: -31%;
 margin-left: 10%;
 }
 /*button{
+>>>>>>> f2af58b01e7e0bdbd560648df66617613a963e6f
   width: 300px;
   height: 200px;
   border: 4px solid black;
@@ -30,25 +34,33 @@ margin-left: 10%;
   background-color: #D7254E;
   font-size: 2em;
   color: white;
+<<<<<<< HEAD
+=======
 }*/
 .header{
   background-color: rgb(137,157,164);
   display: flex;
   justify-content: center;
+>>>>>>> f2af58b01e7e0bdbd560648df66617613a963e6f
 }
 .contenu{
   width: auto;
-  margin: 167px;
+  margin: 120px;
 }
-button[type=submit] {
+.formateur button[type=submit], .candidat button[type=submit] {
   font-weight: bold;
 }
 a:visited{
   color: white;
   text-decoration: none;
 }
+<<<<<<< HEAD
+.bouton{
+  background-color: #D7254E;
+=======
 .boutons{
   background-color: rgb(137,157,164);
+>>>>>>> f2af58b01e7e0bdbd560648df66617613a963e6f
   display: flex;
   justify-content: space-around;
 }
