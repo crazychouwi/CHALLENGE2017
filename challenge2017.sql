@@ -38,6 +38,8 @@ CREATE TABLE IF NOT EXISTS `Apprenants` (
   `ville` varchar(255) NOT NULL,
   `codePostal` varchar(255) NOT NULL,
   `centreDeFormation` varchar(255) NOT NULL
+  `dateDeNaissance` varchar(255) NOT NULL,
+  `numeroTelephone` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
