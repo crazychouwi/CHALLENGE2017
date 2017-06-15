@@ -12,8 +12,9 @@
        include("includes/header.php");
       ?>
     <div class="contacts">
-      <h2>Ecole Régionale du Numérique SIMPLON</h2>
-         <p class="noms">Jennifer AZINHEIRA : jny66000@gmail.com</p>
+      <h3>Ecole Régionale du Numérique</h3>
+      <p>SIMPLON promo 2</p>
+         <!-- <p class="noms">Jennifer AZINHEIRA : jny66000@gmail.com</p>
          <p class="noms">Laurelou BOUCHAREU : laureloobagatelle@hotmail.fr</p>
          <p class="noms">Romain COSSON: romain.cosson11@live.fr</p>
          <p class="noms">Axel DELBOURG : ad.joblink@gmail.com</p>
@@ -26,7 +27,7 @@
          <p class="noms">Eloise MECOZZI : eloisemecozzi@gmail.com</p>
          <p class="noms">Ange MONDOLONI : swinginlover@hotmail.com</p>
          <p class="noms">Hermeline ROUSSELET : biboulle66@gmail.com</p>
-         <p class="noms">Anne SERRANO : anne.serrano@hotmail.fr</p>
+         <p class="noms">Anne SERRANO : anne.serrano@hotmail.fr</p> -->
    </div>
 
    <div class="footer">
