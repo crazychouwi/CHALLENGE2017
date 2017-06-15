@@ -1,0 +1,24 @@
+.menu{
+  text-align: center;
+  border: solid 1px grey;
+  padding: 40px;
+  border-radius: 120px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid grey;
+  height: 50px;
+  vertical-align: bottom;
+  padding: 15px;
+}
+
+th{
+  background-color: grey;
+    color: white;
+}
