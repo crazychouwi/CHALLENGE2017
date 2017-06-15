@@ -29,8 +29,11 @@ h1{
 .contacts{
   text-align: center;
   font-size: 1.5em;
-  
-
+  border: 2px #D7254E solid;
+  box-shadow: 6px 6px 6px #D7254E;
+  margin-top: 11%;
+  width: 80%;
+  margin-left: 10%;
   margin-top: 4%;
 }
 a:visited{
