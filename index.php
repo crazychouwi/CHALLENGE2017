@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
 <<<<<<< HEAD
     <link rel="stylesheet" href="./assets/css/connection.css"/>
-    <link rel="stylesheet" href="./assets/css/menuSite.css">
+    <!-- <link rel="stylesheet" href="./assets/css/menuSite.css"> -->
+    <link rel="stylesheet" href="./assets/css/menuAccueil.css">
 =======
 
     <link rel="stylesheet" href="./assets/css/menu.css">
