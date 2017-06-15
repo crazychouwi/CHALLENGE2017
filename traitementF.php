@@ -25,7 +25,7 @@ $options = [
 $pass = $_POST['password'];
 $hash = password_hash($pass, PASSWORD_BCRYPT, $options);
 
-$req = $bdd->prepare('INSERT INTO Formateurs (nom, prenom, login, email, password) VALUES(:nom, :prenom, :login, :email, :password)');
+$req = $bdd->prepare('INSERT INTO formateurs (nom, prenom, login, email, password) VALUES(:nom, :prenom, :login, :email, :password)');
 $req->execute(array('nom' => $_POST['nom'], 'prenom' => $_POST['prenom'], 'login' => $_POST['login'], 'email' => $_POST['email'], 'password' => $hash));
 // Redirection du visiteur vers la page du minichat
 header('Location: connexionF.php');

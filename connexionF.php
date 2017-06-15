@@ -23,7 +23,22 @@
     <?php
       if (isset($_SESSION['login']) || $_SESSION['email'] && $_SESSION['password']) {
         echo "<p>Vous voici connecté ! Merci " . $_SESSION['login'] . " ! A bientôt !</p>";
-      }
+        try
+        {
+            $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', 'mayrai66!!');
+        }
+        catch (Exception $e)
+        {
+                die('Erreur : ' . $e->getMessage());
+        }
+        $reponse = $bdd->query('SELECT * FROM apprenants');
+        while ($donnees = $reponse->fetch())
+        {
+
+        echo '<p>' . $donnees['nom'] . ' - ' . $donnees['prenom'] . ' - ' . $donnees['centreDeFormation'] . '.</p>';
+        }
+        $reponse->closeCursor();
+}
       else{
         echo "accès denied";
       }
