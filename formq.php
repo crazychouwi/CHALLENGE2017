@@ -43,6 +43,7 @@
 			<label for="">Mois,jour,année</label>
 			<input type="date" name="" id=""/>
 		</form>
+		
 		<form action="traitement_candidat.php" method="post" name="questionnaire">
 			<h2>Partie à remplir par le candidat -Etat Civil</h2>
 			<p>
@@ -486,7 +487,7 @@
 			</h3>
 			<label for=""></label>
 			<input type="text" name="" id="app"/>
-			
+
 			<h3>
 			Intitulé de la formation:
 			</h3>
@@ -710,7 +711,6 @@
     <?php
        include("includes/footer2.php");
       ?>
-   			
+
 		</body>
 	</html>
-
