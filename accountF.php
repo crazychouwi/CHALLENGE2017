@@ -5,7 +5,7 @@
   <title>formulaire</title>
 
  <link href="assets/css/connection.css" type="text/css" rel="stylesheet">
-   
+
   </head>
   <body>
 
@@ -18,6 +18,7 @@
         <div class="connexion">
          <h1>créer ton compte</h1>
           <p>déja inscrit  <a href="loginF.php">se connecter</a></p>
+
     <form method="post" action="traitementF.php" enctype="multipart/form-data">
 
     <label for="nom">Nom :</label><br/>
@@ -42,6 +43,7 @@
 
     <div id="forgot"><img src="assets/img/pt.jpg" id="point"><a href="forgot">mot de passe oublié</a></div>
     <input id="button" type="submit" name="commit" value="Sign In">
+  </form>
   </div>
 
   <div class="footer">
