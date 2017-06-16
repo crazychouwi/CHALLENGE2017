@@ -1,0 +1,111 @@
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Challenge 2017
+Simplon Occitanie
+ERN
+
+
+Cahier des charges
+
+
+
+
+
+
+
+
+
+
+1. Présentation d’ensemble du projet
+1.1 Présentation de l’entreprise :
+   Entreprise de l’économie sociale et solidaire (agrément ESUS), crée en 2013, Simplon.co est un réseau de « fabriques » (écoles) qui propose des formations GRATUITES pour devenir développeur de sites web et d’applications mobiles, intégrateur, référent numérique, datartisan, e-commerçant… et bien d’autres métiers numériques “en tension” qui permettent de trouver rapidement un emploi ou de créer sa propre activité. Le principal concurrent sur le marché sont pour notre région occitanie est épitech qui contrairement à Simplon.co est une école privée.
+
+http://simplon.co/
+
+  Pour ce challenge nous allons développer une solution de soutien aux préselections en vue des entretiens que font passer les formateur.
+1.2 Les objectifs du site :
+Nous devions répondre aux attentes du formateur de St Gaudens qui nous avez préparé un challenge sur 4 jours et demi. Les objectifs du site sont de permettre aux personnes désireuses de candidater auprès de Simplon.co de compléter leur profil en ligne mais aussi pour les formateurs/selectionneurs d'avoir une vision globale de ces demandes.
+1.3 La cible adressée par le site :
+Il y a deux cibles pour ce site :
+Les candidats
+Les formateurs
+1.4 Périmètre du projet :
+     Le site est bien évidemment responsive pour permettre à tout un chacun de postuler de n'importe où depuis son portable.
+1.5 Description de l’existant :
+Nous avions à notre disposition le logo, la possibilité d'utiliser la charte graphique de Simplon.co, le formulaire d'administratif disponible sur le site ainsi que l'ensemble des questions posées aux candidats.
+Le premier jour du challenge nous avions jusqu'à midi pour demander un maximum d'éléments au formateur responsable du challenge.
+
+
+2. Description graphique et ergonomique
+2.1  Charte graphique :
+
+Nous avons choisi de reprendre le logo de simplon ( noir et rouge ) sur toutes les pages en header. Nous aurons des couleurs sobres avec une dominante de gris bleuté et des liens de redirection en blanc.
+
+Il n'y aura pas de variations du code couleur selon les sections par soucis homogénéité de la plateforme.
+
+Nous aurons une police classique Helvetica.
+
+2.2  Design :
+
+- Le design de la plateforme sera sobre et fonctionnel.
+
+2.3  Maquettes :
+
+L'organisation de la plateforme est simple et fonctionnel. Une page d'accueil avec pour choix le profil candidats ou formateurs avec possibilité d'inscription ou login suivi d'une page connexion qui permettra de visualiser les candidatures rangées par promotion côté formateur ou une page contenant le formulaire à remplir pour valider la candidature côté candidat.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Prestations attendues et modalités
+4.1  Prestations attendues :
+
+- Développement
+- Design
+- Intégration
+- Migration de base de données ou autres actifs existants
+- Maintenance et mises à jours
+
+4.2  Planning :
+
+- Il y aura un date limite à déterminer
+- Vendredi 16 juin à 12H
+
+2.2  Méthodologie de suivi :
+
+- Présentation physique
+
+2.2  Modalités :
+
+- Contact : ERN Simplon Narbonne
