@@ -71,7 +71,7 @@
     //   echo "<p>Vous voici connecté ! Bonjour " . $_SESSION['login'] . " !</p>";
       try
       {
-          $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', 'mayrai66!!');
+          $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', '');
       }
       catch (Exception $e)
       {
