@@ -13,7 +13,6 @@
         <li><a href="#">login</a></li>
       </ul>
     </li>
-    <li class="image"><a href="#"><img src="logoSimplon.png" alt="logoSimplon"></a></li>
-      <!-- <li class="image"><a href="#"><img src="assets/img/logoSimplon.png" alt="logoSimplon"></a></li> -->
+          <li class="image"><a href="#"><img src="assets/img/logoSimplon.png" alt="logoSimplon"></a></li>
   </ul>
 </nav>

@@ -53,12 +53,12 @@ border: solid 1px #4CADC1;
     justify-content: center;
   }
 
-  .footer {
+/*.footer {
       background-color: rgb(137,157,164);
       margin-top: 50px;
        width: 100%;
 
-    }
+    }*/
 
 .conteneur a{
   color: white;
@@ -69,16 +69,11 @@ border: solid 1px #4CADC1;
     width: auto;
   }
 
+.boutons{
+  display: flex;
+  justify-content: space-around;
+}
 
-/*button {
-	width:100px;
-	height:100px;
-	background:#fafafa;
-	box-shadow:2px 2px 8px #aaa;
-	font:bold 13px Arial;
-	border-radius:50%;
-	color:#555;
-}*/
 
 
 /*.container{
@@ -94,7 +89,3 @@ border: solid 1px #4CADC1;
 #forgot{
   margin-top: 5%;
 }*/
-.boutons{
-  display: flex;
-  justify-content: space-around;
-}
