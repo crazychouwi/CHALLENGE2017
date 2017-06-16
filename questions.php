@@ -1,15 +1,18 @@
+<?php
+session_start();
+$_SESSION['nom'] = $_POST['nom']; ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Questions</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menuAccueil.css">
 
   </head>
   <body>
     <?php
-       include("includes/menu.php");
-       include("includes/header.php");
+         include("includes/header.php");
       ?>
 
       <h1>Candidature</h1>
@@ -29,31 +32,31 @@
 
         <p>Quel est le dernier diplôme que vous ayez obtenu ?</p>
         <h6>Idem : information demandée à titre indicatif</h6>
-        <input type="radio" name="diplome" value="sans"> <label for="sans">Sans diplôme</label>
-        <input type="radio" name="diplome" value="brevet"><label for="brevet"> Brevet des collèges</label>
-        <input type="radio" name="diplome" value="BEP"> <label for="BEP">BEP</label>
-        <input type="radio" name="diplome" value="CAP"> <label for="CAP">CAP</label>
-        <input type="radio" name="diplome" value="bac"> <label for="bac">Bac général ou technologique</label>
-        <input type="radio" name="diplome" value="bacPro"> <label for="bacPro">Bac Pro</label>
-        <input type="radio" name="diplome" value="bac+2"> <label for="bac+2">Bac +2</label>
-        <input type="radio" name="diplome" value="licence"> <label for="licence">Licence</label>
-        <input type="radio" name="diplome" value="master"><label for="master"> Master</label>
-        <input type="radio" name="diplome" value="doctorat"> <label for="doctorat">Doctorat</label>
-        <input type="radio" name="diplome" value="bacPro"> <label for="bacPro">Bac Pro</label>
-        <input type="radio" name="diplome" value="autreDiplome"><label for="autreDiplome"> Autre, précisez :</label>
-        <input type="text" name="diplome" value="">
+        <input type="radio" name="diplome" value="sans" id="dip"> <label for="dip">Sans diplôme</label>
+        <input type="radio" name="diplome" value="brevet" id="dip"><label for="dip"> Brevet des collèges</label>
+        <input type="radio" name="diplome" value="BEP" id="dip"> <label for="dip">BEP</label>
+        <input type="radio" name="diplome" value="CAP" id="dip"> <label for="dip">CAP</label>
+        <input type="radio" name="diplome" value="bac" id="dip"> <label for="dip">Bac général ou technologique</label>
+        <input type="radio" name="diplome" value="bacPro" id="dip"> <label for="dip">Bac Pro</label>
+        <input type="radio" name="diplome" value="bac+2" id="dip"> <label for="dip">Bac +2</label>
+        <input type="radio" name="diplome" value="licence" id="dip"> <label for="dip">Licence</label>
+        <input type="radio" name="diplome" value="master" id="dip"><label for="dip"> Master</label>
+        <input type="radio" name="diplome" value="doctorat" id="dip"> <label for="dip">Doctorat</label>
+        <input type="radio" name="diplome" value="bacPro" id="dip"> <label for="dip">Bac Pro</label>
+        <input type="radio" name="diplome" value="autreDiplome" id="dip"><label for="dip"> Autre, précisez :</label>
+        <!-- <input type="text" name="diplome" value=""> -->
 
         <p>Racontez-nous en quelques phrases votre parcours.</p>
         <textarea name="parcours" rows="8" cols="80"></textarea>
 
         <p>Quel est votre niveau d'anglais (lu/écrit) ?</p>
         <h6>Cette information n'est pas éliminatoire, ni déterminante dans la candidature, nous la demandons à titre indicatif.</h6>
-        <input type="radio" name="anglais" value="tb"> <label for="tb">Très bon</label>
-        <input type="radio" name="anglais" value="bon"><label for="bon"> Bon</label>
-        <input type="radio" name="anglais" value="intermediaire"> <label for="intermediaire">Intermediaire</label>
-        <input type="radio" name="anglais" value="debutant"> <label for="debutant">Débutant</label>
-        <input type="radio" name="anglais" value="autreAnglais"><label for="autreAnglais"> Autre, précisez :</label>
-        <input type="text" name="anglais" value="">
+        <input type="radio" name="anglais" value="tb" id="ang"> <label for="ang">Très bon</label>
+        <input type="radio" name="anglais" value="bon" id="ang"><label for="ang"> Bon</label>
+        <input type="radio" name="anglais" value="intermediaire" id="ang"> <label for="ang">Intermediaire</label>
+        <input type="radio" name="anglais" value="debutant" id="ang"> <label for="ang">Débutant</label>
+        <input type="radio" name="anglais" value="autreAnglais" id="ang"><label for="ang"> Autre, précisez :</label>
+        <!-- <input type="text" name="anglais" value=""> -->
 
         <h3>MOTIVATIONS</h3>
 
@@ -75,8 +78,10 @@
 
       </form>
 
-      <?php
-         include("includes/footer2.php");
+      <div class="footer">
+    <?php
+       include("includes/footer.php");
       ?>
+  </div>
   </body>
 </html>
