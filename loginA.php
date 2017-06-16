@@ -1,3 +1,26 @@
+<?php
+
+try
+{
+    $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', 'Meslunettes2');
+    $bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch(Exception $e)
+{
+        die('Erreur : '.$e->getMessage());
+}
+$req = $bdd->prepare('SELECT password FROM Apprenants WHERE email = :email');
+$result = $req->fetch(PDO::FETCH_ASSOC);
+$hash = $result['password'];
+$pass = $_REQUEST['password'];
+if(password_verify($pass, $hash)){
+echo 'mot de passe valide !';
+header('Location: connexion.php');
+}else{
+echo 'mot de passe invalide';
+}
+?>
+
 <DOCTYPE! HTML>
 <html>
 <head>
@@ -8,11 +31,9 @@
   </head>
   <body>
     <div class="header">
-            <?php
-               include("includes/header.php");
-              ?>
+      
        </div>
-<form method="post" action="connexion.php" enctype="multipart/form-data">
+<form method="post" action="connexionA.php" enctype="multipart/form-data">
 
 <!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->
 <a href="accountA.php" id="lienInscription">Inscription</a>

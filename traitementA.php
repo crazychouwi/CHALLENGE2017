@@ -1,9 +1,38 @@
 <?php
 session_start();
 $_SESSION['nom']=$_POST['nom'];
-print_r($_SESSION);
+
 
 $_SESSION['admin'] = true;
+?>
+<?php
+try
+{
+    $bdd = new PDO('mysql:host=localhost;dbname=challenge2017;charset=utf8', 'root', 'Meslunettes2');
+		$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+}
+catch(Exception $e)
+{
+        die('Erreur : '.$e->getMessage());
+}
+
+// Insertion du message à l'aide d'une requête préparée
+try {
+
+$options = [
+    'cost' => 10,
+];
+$pass = $_POST['password'];
+$hash = password_hash($pass, PASSWORD_BCRYPT, $options);
+
+$req = $bdd->prepare('INSERT INTO Apprenants (nom, prenom, adresse, code_postal, ville, email,login, password) VALUES(:nom, :prenom, adresse:,cp:, ville, :login, :email, :password)');
+$req->execute(array('nom' => $_POST['nom'], 'prenom' => $_POST['prenom'], 'adresse' =>$_POST['adresse'], 'code_postal' =>$_POST['cp'],'ville'=>$_POST['ville'],'login' => $_POST['login'], 'email' => $_POST['email'], 'password' => $hash));
+// Redirection du visiteur vers la page connexionA
+header('Location: connexionA.php');
+} catch (Exception $e) {
+    echo "Vous êtes déja inscrit";
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -35,17 +64,8 @@ $_SESSION['admin'] = true;
         ?>
           </div>
 
-          <div class="date_de_naissance">
-            <?php
-          if(!empty($_POST['ddn'])){
-          echo $_POST['ddn'];
-          } else {
-          echo 'Remplir ce champ';
-          }
-          ?>
-
           <div class="adresse">
-            <?php
+          <?php
           if(!empty($_POST['adresse'])){
           echo $_POST['adresse'];
           } else {
@@ -70,16 +90,6 @@ $_SESSION['admin'] = true;
           echo 'Remplir ce champ';
           }
           ?>
-
-          <div class="tel">
-          <?php
-          if(!empty($_POST['tel'])){
-          echo $_POST['tel'];
-          } else {
-          echo 'Remplir ce champ';
-          }
-          ?>
-          </div>
 
           <div class="email">
             <?php
@@ -119,9 +129,7 @@ $_SESSION['admin'] = true;
           }
           ?>
 
-    </div>
-    <a href="secretA.php">valider</a>
-    </div>
+  
   </div>
  </body>
 </html>
