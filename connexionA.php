@@ -7,14 +7,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/connection.css">
+
     <link rel="stylesheet" href="assets/css/connec.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menuAccueil.css">
     <title>Connexion Candidat</title>
   </head>
   <body>
     <?php
-       include("includes/menu.php");
        include("includes/header.php");
 
       if (isset($_SESSION['login']) && $_SESSION['password']) {
@@ -46,8 +45,10 @@
             </p>
             <p><input type="button" name="Valider" value="Connexion"></p>
         </form>
-        <?php
-           include("includes/footer2.php");
+        <div class="footer">
+      <?php
+         include("includes/footer.php");
         ?>
+  </div>
   </body>
 </html>
