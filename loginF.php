@@ -28,13 +28,14 @@
       <meta charset="utf-8">
       <title>connexion</title>
       <link href="assets/css/connection.css" type="text/css" rel="stylesheet">
-
+<link href="assets/css/menuAccueil.css" type="text/css" rel="stylesheet">
     </head>
       <body>
-        <div class="header">
-          <img src="assets/img/logoSimplon.png" alt="logoSimplon">
-        </div>
-
+        <header class="header">
+                <?php
+                   include('includes/header.php');
+                  ?>
+           </header>
 
 
     <!-- <div  alt="logo"><img src="assets/img/logoSimplon.png" id="logo"></div> -->
