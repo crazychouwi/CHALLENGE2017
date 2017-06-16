@@ -16,7 +16,7 @@
       ?>
     </div>
 
-      <div class="blocConnex">
+    <div class="blocConnex">
 
           <div class="choixFormulaire">
             <a href="formq.php">Remplir le formulaire</a>
