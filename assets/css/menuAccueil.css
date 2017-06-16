@@ -76,11 +76,11 @@ span{
   font-style: italic;
   font-size: 15px;
 }
-/*.footer {
+.footer {
     background-color: rgb(137,157,164);
-    margin-top: 10%;
+    margin-top: 17%;
     width: 100%;
-  }*/
+  }
 
   .footer2 {
       background-color: rgb(137,157,164);
@@ -100,7 +100,7 @@ span{
 .boutons{
   display: flex;
   justify-content: space-around;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 .boutons a{
     color: white;
@@ -113,4 +113,8 @@ span{
   width: 80%;
   margin-left: 10%;
   margin-top: 11%;
+}
+h1{
+  text-align: center;
+  margin-top: 5%;
 }
