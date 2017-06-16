@@ -17,10 +17,10 @@
       <div class="bouton">
 
         <div class="formateur">
-          <button class="form" type="submit">Formateur</button>
+          <a href="connexionF.php"><button class="form" type="submit">Formateur</button></a>
         </div>
         <div class="candidat">
-          <button class="cand" type="submit">Candidat</button>
+          <a href="connexionA.php"><button class="cand" type="submit">Candidat</button></a>
         </div>
       </div>
 

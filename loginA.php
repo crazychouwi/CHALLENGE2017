@@ -15,7 +15,7 @@ $hash = $result['password'];
 $pass = $_REQUEST['password'];
 if(password_verify($pass, $hash)){
 echo 'mot de passe valide !';
-header('Location: connexion.php');
+header('Location: connexionA.php');
 }else{
 echo 'mot de passe invalide';
 }
