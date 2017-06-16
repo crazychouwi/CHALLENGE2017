@@ -88,6 +88,21 @@ L'organisation de la plateforme est simple et fonctionnel. Une page d'accueil av
 
 
 
+3. Description fonctionnelle et technique
+3.1  Arborescence :
+
+3.2  Description fonctionnelle :
+Notre site comporte 2 parties principales : une partie Formateur et une partie Apprenant accessibles depuis la page d'accueil ou depuis le menu. 
+Chacune de ses parties est constituée d'une page inscription, d'une page login et d'une page personnelle. 
+La page personnelle apprenant lui permet de voir ses badges, d'accéder au formulaire  ainsi qu'aux questions de candidature.
+La page personnelle du formateur lui permet de voir directement dans un tableau les réponses aux questions des candidats.
+3.3  Contraintes techniques :
+
+Nous avons utilisés les langages HTML5, CSS3, JavaScript, PHP et Sql. 
+Nous avons stockés la base de données sur PhpMyAdmin. 
+Nous n'avons pas d'hébergeur, celui ci sera prit en charge par Simplon.co .
+
+
 4. Prestations attendues et modalités
 4.1  Prestations attendues :
 
@@ -102,10 +117,10 @@ L'organisation de la plateforme est simple et fonctionnel. Une page d'accueil av
 - Il y aura un date limite à déterminer
 - Vendredi 16 juin à 12H
 
-2.2  Méthodologie de suivi :
+4.3  Méthodologie de suivi :
 
 - Présentation physique
 
-2.2  Modalités :
+4.4  Modalités :
 
 - Contact : ERN Simplon Narbonne
