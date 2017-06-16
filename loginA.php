@@ -30,8 +30,12 @@ echo 'mot de passe invalide';
  <link href="assets/css/connection.css" type="text/css" rel="stylesheet">
   </head>
   <body>
-    <div class="header">
-      
+     <header class="header">
+                <?php
+                   include('includes/header.php');
+                  ?>
+           </header>
+
        </div>
 <form method="post" action="connexionA.php" enctype="multipart/form-data">
 
