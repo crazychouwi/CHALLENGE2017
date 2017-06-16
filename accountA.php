@@ -5,14 +5,14 @@
   <title>FORMULAIREA</title>
 
  <link href="assets/css/connection.css" type="text/css" rel="stylesheet">
-   <link rel="stylesheet" href="assets/css/menuSite.css"> 
+   <link rel="stylesheet" href="assets/css/menuAccueil.css"> 
   </head>
   <body>
 
 
   <div class="header">
           <?php
-             include("includes/menuSite.php");
+             include("includes/header.php");
             ?>
      </div>
         <div class="connexion">

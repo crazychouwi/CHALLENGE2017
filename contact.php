@@ -3,22 +3,19 @@
   <head>
     <meta charset="utf-8">
 
-      <link rel="stylesheet" href="assets/css/menu.css">
-      <link rel="stylesheet" href="assets/css/style.css"/>
+      <link rel="stylesheet" href="assets/css/menuAccueil.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+
     <title>Contact</title>
   </head>
   <body>
-    <header class="menu">
-            <?php
-               include("includes/menuSite.php");
-              ?>
-       </header>
-
-    <div class="header">
+    <header class="header">
             <?php
                include("includes/header.php");
               ?>
-       </div>
+       </header>
+
+
 
     <div class="contact">
 <h2>contact</h2>

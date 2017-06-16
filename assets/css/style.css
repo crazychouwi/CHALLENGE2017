@@ -3,9 +3,9 @@ body{
 }
 
 .contact{
-  margin-left: 70%;
-margin-top: 28%;
-width: 50%;
+  margin-left: 10%;
+  margin-top: 29%;
+  width: 15%;
 }
 
 .headline{
@@ -16,14 +16,18 @@ width: 50%;
 
 .map{
   width: 50%;
-margin-top: -31%;
-margin-left: 10%;
+  margin-top: -31%;
+  margin-left: 10%;
+  float: right;
+  margin-right: 5%;
 }
 
 .header{
-  background-color: rgb(137,157
-
+  background-color: rgb(137,157,164);
+  display: flex;
+  justify-content: center;
 }
+
 .contenu{
   width: auto;
   margin: 120px;
@@ -35,29 +39,9 @@ a:visited{
   color: white;
   text-decoration: none;
 }
-.
-
-.boutons{
-  background-color: rgb(137,157,164);
-  display: flex;
-  justify-content: space-around;
-}
 
 ul {
   display: flex;
-}
-.boutons a {
-display:block;
-width:150px;
-line-height:50px;
-text-align:center;
-vertical-align:middle;
-background: rgb(137,157,164);
-color:white;
-text-decoration:none;
-}
-.boutons a:hover {
-background:url(images/bouton-noir-2.png) no-repeat;
 }
 
 a{
@@ -99,14 +83,21 @@ margin:2px;
 }
 .footer {
     background-color: rgb(137,157,164);
-    margin-top: 50px;
-    bottom: 0;
-    height: 25%;
+    margin-top: 10%;
     width: 100%;
-    line-height: 15px;
+  }
 
   }
   .bouton{
     display: flex;
     justify-content: space-around;
+  }
+
+  .boutons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+  }
+  .boutons a{
+      color: white;
   }
