@@ -8,9 +8,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="assets/css/connection.css">
-    <link rel="stylesheet" href="assets/css/connec.css">
-    <link rel="stylesheet" href="assets/css/connecF.css">
+      <link rel="stylesheet" href="assets/css/connecF.css">
+      <link rel="stylesheet" href="assets/css/menuAccueil.css">
     <title>Connexion</title>
   </head>
   <body>
