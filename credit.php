@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
      <link rel="stylesheet" href="assets/css/menuAccueil.css">
-     <link rel="stylesheet" href="assets/css/credit.css"/>
+     <!-- <link rel="stylesheet" href="assets/css/credit.css"/> -->
 
     <title>Crédits</title>
   </head>
@@ -33,7 +33,7 @@
          <p class="noms">Anne SERRANO : anne.serrano@hotmail.fr</p> -->
    </div>
 
-   <div class="footer">
+   <div class="footer2">
     <?php
        include("includes/footer.php");
       ?>
