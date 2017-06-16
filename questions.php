@@ -1,6 +1,4 @@
-<?php
-session_start();
-$_SESSION['nom'] = $_POST['nom']; ?>
+
 <!DOCTYPE html>
 <html>
   <head>
