@@ -1,21 +1,14 @@
-œ<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>challenge2017</title>
-
      <link rel="stylesheet" href="./assets/css/menuAccueil.css">
-     <link rel="stylesheet" href="assets/css/style.css"> -->
-     <link rel="stylesheet" href="./assets/css/connection.css"/>
-
-
   </head>
   <body>
-
-
     <header class="header">
             <?php
-               include('includes/menuSite.php');
+               include('includes/header.php');
               ?>
        </header>
     <div class="contenu">

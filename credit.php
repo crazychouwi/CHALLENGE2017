@@ -2,15 +2,17 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="./assets/css/credit.css"/>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/menu.css">
+     <link rel="stylesheet" href="assets/css/menuAccueil.css">
+     <!-- <link rel="stylesheet" href="assets/css/credit.css"/> -->
+
     <title>Crédits</title>
   </head>
   <body>
-    <?php
-       include("includes/menuSite.php");
-      ?>
+    <header class="header">
+            <?php
+               include("includes/header.php");
+              ?>
+       </header>
 
     <div class="contacts">
       <h3>Ecole Régionale du Numérique</h3>
@@ -31,7 +33,7 @@
          <p class="noms">Anne SERRANO : anne.serrano@hotmail.fr</p> -->
    </div>
 
-   <div class="footer">
+   <div class="footer2">
     <?php
        include("includes/footer.php");
       ?>
