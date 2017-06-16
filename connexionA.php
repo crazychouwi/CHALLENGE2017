@@ -4,7 +4,7 @@
     <meta charset="utf-8">
 
 
-    <link rel="stylesheet" href="assets/css/connec.css">
+    <link rel="stylesheet" href="assets/css/connection.css">
     <link rel="stylesheet" href="assets/css/menuAccueil.css">
     <title>Connexion Candidat</title>
   </head>
@@ -32,9 +32,11 @@
 
       </div>
 
-        <?php
-           include("includes/footer2.php");
-      ?>
-    </div>
+      <div class="footer2">
+       <?php
+          include("includes/footer.php");
+         ?>
+      </div>
+
   </body>
 </html>
