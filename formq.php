@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css">
+		    <link rel="stylesheet" href="assets/css/menuAccueil.css">
     <title>questionnaire candidat</title>
 	</head>
 	<body>
 		<?php
-       include("includes/menu.php");
+
        include("includes/header.php");
       ?>
 
@@ -43,7 +44,7 @@
 			<label for="">Mois,jour,année</label>
 			<input type="date" name="" id=""/>
 		</form>
-		
+
 		<form action="traitement_candidat.php" method="post" name="questionnaire">
 			<h2>Partie à remplir par le candidat -Etat Civil</h2>
 			<p>
@@ -709,8 +710,8 @@
 
 			<div class="footer">
     <?php
-       include("includes/footer2.php");
+       include("includes/footer.php");
       ?>
-
+</div>
 		</body>
 	</html>

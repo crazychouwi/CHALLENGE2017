@@ -7,12 +7,12 @@ $_SESSION['nom'] = $_POST['nom']; ?>
     <meta charset="utf-8">
     <title>Questions</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/menuAccueil.css">
 
   </head>
   <body>
     <?php
-       include("includes/menu.php");
-       include("includes/header.php");
+         include("includes/header.php");
       ?>
 
       <h1>Candidature</h1>
@@ -78,8 +78,10 @@ $_SESSION['nom'] = $_POST['nom']; ?>
 
       </form>
 
-      <?php
-         include("includes/footer2.php");
+      <div class="footer">
+    <?php
+       include("includes/footer.php");
       ?>
+  </div>
   </body>
 </html>

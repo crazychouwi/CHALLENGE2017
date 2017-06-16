@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>challenge2017</title>
-     <link rel="stylesheet" href="./assets/css/menuAccueil.css">
+     <link rel="stylesheet" href="assets/css/menuAccueil.css">
   </head>
   <body>
     <header class="header">
